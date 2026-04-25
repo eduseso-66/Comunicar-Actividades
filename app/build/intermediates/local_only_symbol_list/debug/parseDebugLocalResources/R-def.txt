@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_background
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string activity_one_card_text
+string activity_one_hello
+string activity_one_subtitle
+string activity_two_card_text
+string activity_two_message
+string activity_two_subtitle
+string app_name
+string back_to_activity_one
+string go_to_activity_two
+style Theme.App

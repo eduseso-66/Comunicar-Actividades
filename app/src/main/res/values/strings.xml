@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2 Actividades</string>
+
+    <!-- Actividad 1 -->
+    <string name="activity_one_hello">Menú Principal</string>
+    <string name="activity_one_subtitle">Bienvenido a esta seccion</string>
+    <string name="activity_one_card_text">Para ir a la siguiente ventana presione el boton de abajo.</string>
+    <string name="go_to_activity_two">Ir a inicio →</string>
+
+    <!-- Actividad 2 -->
+    <string name="activity_two_message">Inicio</string>
+    <string name="activity_two_subtitle">Bienvenido al inicio</string>
+    <string name="activity_two_card_text">Para volver al menu principal presione el boton de abajo.</string>
+    <string name="back_to_activity_one">Regresar a menu principal</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#3DDC84</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="activity_one_card_text">Para ir a la siguiente ventana presione el boton de abajo.</string>
+    <string name="activity_one_hello">Menú Principal</string>
+    <string name="activity_one_subtitle">Bienvenido a esta seccion</string>
+    <string name="activity_two_card_text">Para volver al menu principal presione el boton de abajo.</string>
+    <string name="activity_two_message">Inicio</string>
+    <string name="activity_two_subtitle">Bienvenido al inicio</string>
+    <string name="app_name">2 Actividades</string>
+    <string name="back_to_activity_one">Regresar a menu principal</string>
+    <string name="go_to_activity_two">Ir a inicio →</string>
+    <style name="Theme.App" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
