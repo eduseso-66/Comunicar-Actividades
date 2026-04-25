@@ -1,57 +1,24 @@
-# 2 Actividades — Android App
+<p aling="center">
+    
+# Comunicación entre Actividades
+</p>
 
-Proyecto de tarea: navegación entre dos actividades en Android con Jetpack Compose.
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose" />
+  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio" />
+</p>
 
-## 📱 Descripción
+Este proyecto implementa la comunicacion entre dos actividades, aplicando las mejores prácticas de navegación de la arquitectura moderna.
 
-Esta app demuestra cómo navegar entre dos Activities usando **Intents** en Android, implementada con **Jetpack Compose** siguiendo las buenas prácticas de Material Design 3.
 
-## ✨ Mejoras aplicadas sobre el proyecto base
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXlmY2s4NG52azQ5dTFheDZmcG9mYzFkcDJyY3V3ZjJlcjYwMTJyaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/mcsPU3SkKrYDdW3aAU/giphy.gif" width="280" alt="App Demo" />
+</p>
 
-| Aspecto | Original | Mejorado |
-|---------|----------|----------|
-| Fondo | Blanco plano | Gradiente azul oscuro / teal |
-| Tipografía | Texto genérico | Jerarquía clara: badge, título, subtítulo |
-| Botones | Material por defecto | Botón primario + botón outlined con ícono |
-| Animación | Ninguna | Fade-in al cargar cada pantalla |
-| Strings | Mínimos | Subtítulos y texto de tarjeta informativos |
-| Tema | Default | Paleta custom oscura coherente |
-| Navegación | Solo botón | Botón con flecha de regreso + ícono |
 
-## 🎨 Paleta de colores
+## Usar repositorio
 
-- **Actividad 1**: Gradiente `#0F2027 → #203A43 → #2C5364` con acento `#4FC3F7`
-- **Actividad 2**: Gradiente `#1A0533 → #2D1B69 → #11998E` con acento `#80CBC4`
-
-## 🏗️ Estructura del proyecto
-
-```
-app/src/main/
-├── java/com/equipo1/a2actividades/
-│   ├── MainActivity.kt          ← Actividad 1 con fade-in y tarjeta
-│   ├── SecondActivity.kt        ← Actividad 2 con ícono de regreso
-│   └── ui/theme/
-│       ├── Color.kt             ← Paleta de colores
-│       ├── Theme.kt             ← MaterialTheme dark/light
-│       └── Type.kt              ← Tipografía
-└── res/
-    └── values/
-        └── strings.xml          ← Textos localizables
-```
-
-## 🚀 Cómo abrir en Android Studio
-
-1. Clonar o descomprimir el proyecto
-2. Abrir Android Studio → **Open** → seleccionar la carpeta raíz
-3. Esperar a que Gradle sincronice las dependencias
-4. Ejecutar en un emulador o dispositivo con API 24+
-
-## 📦 Dependencias principales
-
-- `androidx.compose.bom:2024.12.01`
-- `material3`
-- `material-icons-extended` (para el ícono de flecha)
-- `activity-compose:1.9.3`
-
-## 👥 Equipo 1
-# Comunicar-Actividades
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/eduseso-66/Comunicar-Actividades.git
